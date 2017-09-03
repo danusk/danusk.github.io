@@ -1,6 +1,13 @@
-# Degree
-- degree: Associates Degree, Business Management
-  uni: Springfield College
-  year: 1984 &mdash; 1986
-  awards: Quickest to fall asleep
-  summary: If you had any meaningful roles at college, feel free to write about them here
+# Degree 1
+- degree: Master of Science Degree, Materials Science & Engineering
+  uni: Cornell University
+  year: 2014 &mdash; 2016
+  # awards: Quickest to fall asleep
+  # summary: If you had any meaningful roles at college, feel free to write about them here
+
+# Degree 2
+- degree: Bachelor of Engineering Degree, Engineering Science
+  uni: Stony Brook University
+  year: 2009 &mdash; 2014
+  # awards: Quickest to fall asleep
+  # summary: If you had any meaningful roles at college, feel free to write about them here

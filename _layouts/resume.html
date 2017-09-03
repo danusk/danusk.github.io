@@ -27,7 +27,7 @@
         <div class="title-bar no-print">
 
           <!-- Your title is also defined in the _config.yml file -->
-          <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
+          <a class="header-title" itemprop="jobTitle">{{ site.resume_title }}</a>
 
           <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
           {% include icon-links.html %}
@@ -119,30 +119,56 @@
           <h4 class="resume-item-details">{{ skill.skill }}</h4>
           <p class="resume-item-copy">{{ skill.description }}</p>
         </div>
+
         {% endfor %}
+
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c9e250d9-a966-4ee5-91b1-a1c10e87ca34"></div>
+          <script type="text/javascript">
+            (function() {
+              var s = document.createElement('script');
+              s.type = 'text/javascript';
+              s.async = true;
+              s.src = '//cdn.youracclaim.com/assets/utilities/embed.js';
+              var o = document.getElementsByTagName('script')[0];
+              o.parentNode.insertBefore(s, o);
+              })();
+          </script>
+       <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="cd305698-17ae-421d-ab22-7d36f2ad66dd"></div>
+          <script type="text/javascript">
+            (function() {
+              var s = document.createElement('script');
+              s.type = 'text/javascript';
+              s.async = true;
+              s.src = '//cdn.youracclaim.com/assets/utilities/embed.js';
+              var o = document.getElementsByTagName('script')[0];
+              o.parentNode.insertBefore(s, o);
+              })();
+          </script>
+
 
       </section>
       <!-- end Skills -->
       {% endif %}
 
-      {% if site.resume_section_recognition %}
-      <!-- begin Recognition -->
+      {% if site.resume_section_publications %}
+      <!-- begin Publication -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Recognition</h2>
+          <h2>Publications</h2>
         </header>
 
-        {% for recognition in site.data.recognitions %}
+        {% for publication in site.data.publications %}
         <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-          <p class="resume-item-copy">{{ recognition.summary }}</p>
+          <h3 class="resume-item-title" itemprop="title">{{ publication.title }}</h3>
+          <h4 class="resume-item-details">{{ publication.journal }} &bull; {{ publication.year }} </h4>
+          <h5 class = "resume-item-authors">{{ publication.authors }}</h5>
+          <p class="resume-item-copy">{{ publication.summary }}</p>
         </div>
         {% endfor %}
 
       </section>
-      <!-- end Recognition -->
+      <!-- end Publication -->
       {% endif %}
 
       {% if site.resume_section_associations %}
@@ -220,6 +246,7 @@
       </section>
       <!-- end Print Social Links -->
       {% endif %}
+
 
       <footer class="page-footer">
         <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
