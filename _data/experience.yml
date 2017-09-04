@@ -3,12 +3,10 @@
 - company: Stryker Neurovascular
   position: R&D Specialist
   duration: Nov, 2016 &mdash; Present
-  summary: Performed preclinical testing of devices for neurovascular intervention 
-  <ul class="resume-item-list"><li>Developed vascular models using SolidWorks</li><li>Assessed performance of devices in bench testing using data analysis</li><li>Refined testing methods and composed standard testing protocol documentation</li><li>Performed exploratory literature evaluation studies for R&D</li><ul>
+  summary: Performed preclinical testing of devices for neurovascular intervention&#58;<ul class="resume-item-list"><li>Developed vascular models using SolidWorks</li><li>Assessed performance of devices in bench testing using data analysis</li><li>Refined testing methods and composed standard testing protocol documentation</li><li>Performed exploratory literature evaluation studies for R&D</li><ul>
 
 
-- company: Stryker Neurovascular
-  position: Engineering Intern
+- position: Engineering Intern
   duration:  May, 2013 &mdash; Aug, 2013
   summary: <ul class="resume-item-list"><li>Participated in Investigational Device Exemption accountability</li><li>Created protocol to test software to demonstrate Part 11 Compliance</li><li>Performed sample size analysis to determine resource allocation for testing</li><li>Participated in material release</li><ul>
 
