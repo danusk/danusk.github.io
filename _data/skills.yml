@@ -5,10 +5,11 @@
   description: SolidWorks, AutoCAD 
 
 - skill: Programming
-  description: <ul class="resume-item-list"><li>Python</li><li>Java</li><li>C</li><li>Bash</li></ul>
+  description: Proficient With&#58; Python, Java
+               Familiar With&#58; C, R
 
-- skill: R and Big Data Analysis 
-  description: In progress!
+- skill: Materials Analysis Techniques
+  description: Scanning Electron Microscopy, X-ray Diffraction 
 
-
-
+- skill: Technical Writing
+  description: Testing Protocols, Work Instructions, Research Summaries
